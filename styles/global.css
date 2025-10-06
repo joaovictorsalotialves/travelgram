@@ -35,3 +35,8 @@ a:hover {
   color: var(--brand-color);
   text-decoration: underline;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,18 @@
+#gallery {
+  padding-block: 1rem;
+
+  & #photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17.875rem, 1fr));
+  }
+}
+
+@media (width >=80em) {
+  #gallery {
+    padding-block: 1.5rem;
+
+    & #photo-gallery {
+      gap: 1.5rem;
+    }
+  }
+}
