@@ -1,0 +1,35 @@
+.container {
+  max-width: 80em;
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (width >=80em) {
+  .desktop-only {
+    display: initial;
+  }
+
+  .container {
+    padding-inline: 2rem;
+  }
+}
