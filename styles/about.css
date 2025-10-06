@@ -1,0 +1,66 @@
+#about {
+  padding-block: 2rem;
+
+  & .container {
+    flex-direction: column;
+    gap: 2rem;
+
+    padding-inline: 2rem;
+  }
+
+  & #profile {
+    flex-direction: column;
+
+    & img {
+      width: 7.5rem;
+      height: 7.5rem;
+    }
+  }
+
+  & #description {
+    flex-direction: column;
+
+    & h1 {
+      font: bold 1.5rem/1.25 var(--font-family);
+      color: var(--text-color-primary);
+    }
+
+    & p {
+      font: var(--text-md);
+    }
+  }
+
+  & #info {
+    flex-direction: column;
+
+    & span {
+      font: var(--text-md);
+    }
+  }
+
+  @media (width >=80em) {
+    & .container {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    & #profile {
+      flex-direction: row;
+      align-items: center;
+      margin-right: auto;
+
+      & img {
+        width: 11rem;
+        height: 11rem;
+      }
+
+      & #description {
+        max-width: 24rem;
+
+        & h1 {
+          font: var(--text-lg);
+        }
+      }
+    }
+  }
+}
