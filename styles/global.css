@@ -14,10 +14,10 @@
   --text-color-secondary: #6C6C6C;
 
   --font-family: 'Poppins', sans-serif;
-  --text-lg: bold 2rem/125% var(--font-family);
-  --text: 1rem/150% var(--font-family);
-  --text-md: .875rem/170% var(--font-family);
-  --text-sm: .75rem/170% var(--font-family);
+  --text-lg: bold 2rem/1.25 var(--font-family);
+  --text: 1rem/1.5 var(--font-family);
+  --text-md: .875rem/1.7 var(--font-family);
+  --text-sm: .75rem/1.7 var(--font-family);
 }
 
 body {

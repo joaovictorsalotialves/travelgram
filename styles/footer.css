@@ -1,11 +1,21 @@
 footer {
-  display: flex;
-  gap: 24px;
-  padding-block: 24px;
+  padding-block: 1rem;
 
-  font: 14px/150% var(--font-family);
+  & .container {
+    flex-direction: column;
+  }
 }
 
-footer span:nth-child(1) {
-  margin-right: auto;
+@media (width >=80em) {
+  footer {
+    padding-block: 1.5rem;
+
+    & .container {
+      flex-direction: row;
+    }
+  }
+
+  & .copy {
+    margin-right: auto;
+  }
 }

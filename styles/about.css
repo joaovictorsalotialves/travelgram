@@ -32,6 +32,7 @@
 
   & #info {
     flex-direction: column;
+    min-width: 17.5rem;
 
     & span {
       font: var(--text-md);
