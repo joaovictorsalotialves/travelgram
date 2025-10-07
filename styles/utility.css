@@ -28,7 +28,7 @@
   display: none;
 }
 
-@media (width >=80em) {
+@media (width >=64em) {
   .desktop-only {
     display: initial;
   }

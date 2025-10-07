@@ -39,12 +39,7 @@
     }
   }
 
-  @media (width >=80em) {
-    & .container {
-      flex-direction: row;
-      align-items: center;
-    }
-
+  @media (width >=48em) {
     & #profile {
       flex-direction: row;
       align-items: center;
@@ -55,6 +50,19 @@
         height: 11rem;
       }
 
+      & #description {
+        max-width: 40rem;
+      }
+    }
+  }
+
+  @media (width >=64em) {
+    & .container {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    & #profile {
       & #description {
         max-width: 24rem;
 
